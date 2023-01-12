@@ -1,0 +1,8 @@
+vim da codlar
+1.faylni saqlash va chiqish uchun esc tugmasi bosib (: ikki nuqta) va (wq) bosiladi
+bu yerdagi (w) yozish (q) chiqish degani
+2.faylga yozish uchun birinchi (i) tugmasi bosiladi
+3. faylga kiritilgan o'zgarishlarni saqlamasdan chiqish esc tugmasi bosiladi (: ikki nuqta) keyin (q!) tugmalari bosiladi.
+4.<touch fayl_nome.formati> yangi fayl yaratadi.
+5.<start fayl_name.formati> faylni ochadi.
+6.<vi || vim fayl_name.formati> faylni ochadi mavjud bo'lmasa yaratadi.

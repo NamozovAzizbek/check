@@ -9,3 +9,8 @@ boshqa branchlar esa unga Merge orqali qo'shiladi: Misol uchun tatu uning filyal
 1.<git branch> hozirda mavjud branchlarni ko'rdsatadi.
 2.<git branch new_branch_name> yangi branch yaratish.
 3.<git checkout branch_name> branchni o'zgartiradi.
+Agar biz bir branchda turb faylga o'zgartirshlar kiritsak keyin boshqa branchga o'tadigan bo'lsak local repoda (kompyuterdagi fayl) o'zgarishlarimiz ko'rinmaydi.
+Ko'rinishiligi uchun merge qilish kerak . M: navbar nomli branchda turib local repoga o'zgartirishlar kiritadigan bo'lsak 
+master branchga o'tishdan oldin <git add .> barcha o'zgarishlarni navbatga qo'shadi <git commit -m matn> commitga qo'shadi <git merge master> qilinadi keyin <git checkout master>
+branch masterga o'zgardi <git merge navbar> komandalari yozilgach ikki branchda ham endi o'zgarishlar ko'rinadi.
+Endi navbar branch master brancha qo'shildi.
