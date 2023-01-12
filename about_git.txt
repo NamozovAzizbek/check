@@ -1,0 +1,11 @@
+1. git dagi eski versiyaga o'tish uchun <git log> kamandasi beriladi va kerakli versiya kodi olinadi va <git checkout </kod/>> agar gitning eng oxirgi versiyasiga o'tish uchun <git checkout branch_name>
+2. <git add .> bu kamanda orqali barcha o'zgarishlar qo'shiladi
+3. <git checkout -- fayl_nomi> fayldagi o'zgarishni bekor qiladi <git checkout --.> bunda barcha fayllar o'zgarishlar bekor bo'ladi yani bundan oldingi versiyaga o'tadi
+4. <git reset fayl_nomt> yoki <git reset .> orqali biz navbatga qo'shilgan fayllarni navbatdan chiqariladi ya'ni <git add .> orqali qo'shilgan fayllarni add dan chiqarish mumkin.
+5. Branch/Merge
+Branch - filyal
+asosiy branch master 
+boshqa branchlar esa unga Merge orqali qo'shiladi: Misol uchun tatu uning filyallari branchlar hisoblanadi .
+1.<git branch> hozirda mavjud branchlarni ko'rdsatadi.
+2.<git branch new_branch_name> yangi branch yaratish.
+3.<git checkout branch_name> branchni o'zgartiradi.
