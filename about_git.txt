@@ -22,4 +22,4 @@ Endi navbar branch master brancha qo'shildi.
 6.<git config user.name || user.email> foydalanuvchi nomi || emailni chiqaradi.
 7.<git config --global user.name || eser.email> gitda foydalanuvchi nomi || email ni o'zgartiradi va default holatda foydalandi.
 8.<git config user.name || user.email> gitda foydalanuvchi nomi || email ni o'zgartiradi lekin default holatda emas.
-
+9.<git add .> o'zgarishlarni barchasi qo'shadi.
