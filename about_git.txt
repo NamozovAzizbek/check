@@ -1,6 +1,6 @@
 1. git dagi eski versiyaga o'tish uchun <git log> kamandasi beriladi va kerakli versiya kodi olinadi va <git checkout </kod/>> agar gitning eng oxirgi versiyasiga o'tish uchun <git checkout branch_name>
 2. <git add .> bu kamanda orqali barcha o'zgarishlar qo'shiladi
-3. <git checkout -- fayl_nomi> fayldagi o'zgarishni bekor qiladi <git checkout --.> bunda barcha fayllar o'zgarishlar bekor bo'ladi yani bundan oldingi versiyaga o'tadi
+3. <git checkout -- fayl_nomi> fayldagi o'zgarishni bekor qiladi <git checkout --.> bunda barcha fayllar o'zgarishlar bekor bo'ladii yani bundan oldingi versiyaga o'tadi
 4. <git reset fayl_nomt> yoki <git reset .> orqali biz navbatga qo'shilgan fayllarni navbatdan chiqariladi ya'ni <git add .> orqali qo'shilgan fayllarni add dan chiqarish mumkin.
 5. Branch/Merge
 Branch - filyal
@@ -9,17 +9,30 @@ boshqa branchlar esa unga Merge orqali qo'shiladi: Misol uchun tatu uning filyal
 1.<git branch> hozirda mavjud branchlarni ko'rdsatadi.
 2.<git branch new_branch_name> yangi branch yaratish.
 3.<git checkout branch_name> branchni o'zgartiradi.
-<<<<<<< HEAD
+<<<<<<<
 Agar biz bir branchda turb faylga o'zgartirshlar kiritsak keyin boshqa branchga o'tadigan bo'lsak local repoda (kompyuterdagi fayl) o'zgarishlarimiz ko'rinmaydi.
 Ko'rinishiligi uchun merge qilish kerak . M: navbar nomli branchda turib local repoga o'zgartirishlar kiritadigan bo'lsak 
 master branchga o'tishdan oldin <git add .> barcha o'zgarishlarni navbatga qo'shadi <git commit -m matn> commitga qo'shadi <git merge master> qilinadi keyin <git checkout master>
 branch masterga o'zgardi <git merge navbar> komandalari yozilgach ikki branchda ham endi o'zgarishlar ko'rinadi.
 Endi navbar branch master brancha qo'shildi.
 =======
-4.<git reflog> git loglarni (harakatlarni) ko'rsatdi.
-5.<git config --list> gitdgi barcha sozlanmalarni ko'rsatadi.
->>>>>>> navbar
-6.<git config user.name || user.email> foydalanuvchi nomi || emailni chiqaradi.
-7.<git config --global user.name || eser.email> gitda foydalanuvchi nomi || email ni o'zgartiradi va default holatda foydalandi.
-8.<git config user.name || user.email> gitda foydalanuvchi nomi || email ni o'zgartiradi lekin default holatda emas.
-9.<git add .> o'zgarishlarni barchasi qo'shadi.
+4.  <git reflog> 						git loglarni (harakatlarni) ko'rsatdi.
+5.  <git config --list> 					gitdgi barcha sozlanmalarni ko'rsatadi.
+6.  <git config user.name || user.email> 			foydalanuvchi nomi || emailni chiqaradi.
+7.  <git config --global (user.name || eser.email) 'string'> 	gitda foydalanuvchi nomi || email ni o'zgartiradi va default holatda foydalandi.
+8.  <git config (user.name || user.email) 'string'>  		gitda foydalanuvchi nomi || email ni o'zgartiradi lekin default holatda emas.
+9.  <git add .> 		  				fayllarni barchasi navbatga qo'yadi.
+10. <git commit -m "xabar" > 	  				navbatda turgan fayllarni xabar bilan birgaligda xotiraga saqlaydi.
+11. <git log> 			  				commentlarnig tarixini ko'rstadi.
+12. <git log kod> 		  				kod turgan versiyaga o'tadi.
+13. <git checkout --fayl_nome>    				fayl o'zgrishni bekor qiladi.
+14. <git checkout --.> 		  				barcha fayllardagi o'zgarishlarni bekor qiladi.
+15. <git checkout commit_kodi>    				loyihamizning xoxlagan versiyaga o'tish mumkin.
+16. <git checkout branch-nomi> 	  				ayni oxirgi versiyaga o'tadi.
+17. <git reset fayl-nomi> 	  				git add dagi navbatni bekor qilsh.
+18. <git rest .> 		  				barchasin bekor qiladi.
+19. <git branch new-branchname>   				yangi branch yaratadi.
+20. <git checkout branch-nomi>    				branchni o'zgartiradi.
+21. <git remote add orign URL>					gitdagi reponi githubdagi repoga qo'shadi URL = github repozitorya manzili.
+22. <git push -u orign branch-nomi>				gitdagi reponi githubga yuklash.
+23. <git clone URL> 						githubdagi repozitoryani kompga yuklaydi.
