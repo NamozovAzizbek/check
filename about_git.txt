@@ -17,5 +17,9 @@ branch masterga o'zgardi <git merge navbar> komandalari yozilgach ikki branchda 
 Endi navbar branch master brancha qo'shildi.
 =======
 4.<git reflog> git loglarni (harakatlarni) ko'rsatdi.
-5.
+5.<git config --list> gitdgi barcha sozlanmalarni ko'rsatadi.
 >>>>>>> navbar
+6.<git config user.name || user.email> foydalanuvchi nomi || emailni chiqaradi.
+7.<git config --global user.name || eser.email> gitda foydalanuvchi nomi || email ni o'zgartiradi va default holatda foydalandi.
+8.<git config user.name || user.email> gitda foydalanuvchi nomi || email ni o'zgartiradi lekin default holatda emas.
+

@@ -6,3 +6,5 @@ bu yerdagi (w) yozish (q) chiqish degani
 4.<touch fayl_nome.formati> yangi fayl yaratadi.
 5.<start fayl_name.formati> faylni ochadi.
 6.<vi || vim fayl_name.formati> faylni ochadi mavjud bo'lmasa yaratadi.
+7.<start .> turgan faylni ochadi.
+
