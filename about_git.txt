@@ -9,3 +9,5 @@ boshqa branchlar esa unga Merge orqali qo'shiladi: Misol uchun tatu uning filyal
 1.<git branch> hozirda mavjud branchlarni ko'rdsatadi.
 2.<git branch new_branch_name> yangi branch yaratish.
 3.<git checkout branch_name> branchni o'zgartiradi.
+4.<git reflog> git loglarni (harakatlarni) ko'rsatdi.
+5.
