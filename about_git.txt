@@ -33,7 +33,7 @@ Endi navbar branch master brancha qo'shildi.
 18. <git rest .> 		  				barchasin bekor qiladi.
 19. <git branch new-branchname>   				yangi branch yaratadi.
 20. <git checkout branch-nomi>    				branchni o'zgartiradi.
-21. <git remote add orign URL>					gitdagi reponi githubdagi repoga qo'shadi URL = github repozitorya manzili.
-22. <git push -u orign branch-nomi>				gitdagi reponi githubga yuklash.
+21. <git remote add origin URL>					gitdagi reponi githubdagi repoga qo'shadi URL = github repozitorya manzili.
+22. <git push -u origin branch-nomi>				gitdagi reponi githubga yuklash.
 23. <git clone URL> 						githubdagi repozitoryani kompga yuklaydi.
 24. <git pull>							git hubda yaratilgan faylni gitdagi repozitoryaga ko'chiradi.
