@@ -36,3 +36,4 @@ Endi navbar branch master brancha qo'shildi.
 21. <git remote add orign URL>					gitdagi reponi githubdagi repoga qo'shadi URL = github repozitorya manzili.
 22. <git push -u orign branch-nomi>				gitdagi reponi githubga yuklash.
 23. <git clone URL> 						githubdagi repozitoryani kompga yuklaydi.
+24. <git pull>							git hubda yaratilgan faylni gitdagi repozitoryaga ko'chiradi.
